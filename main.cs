@@ -20,7 +20,7 @@ class Program
         Console.Write("Enter a day of the week: ");
         age = Convert.ToInt32(Console.ReadLine());
 
-        if ((day == "Thursday" || day == "Tuesday") || (age >= 12 && age <= 21))
+        if ((day == "Thursday" || day == "Tuesday") || (day == "thursday" || day == "tuesday") || (age >= 12 && age <= 21))
         {
             Console.WriteLine("you can get a discount!");
         }
