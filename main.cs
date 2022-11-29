@@ -12,8 +12,6 @@ class Program
         string day = null;
         int age;
 
-        System.Random random = new System.Random();
-
         Console.Write("Enter a day of the week: ");
         day = Convert.ToString(Console.ReadLine());
 
